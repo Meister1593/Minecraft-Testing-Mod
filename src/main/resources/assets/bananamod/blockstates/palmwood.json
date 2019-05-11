@@ -1,7 +1,8 @@
 {
     "variants": {
-        "normal": [
-            { "model": "bananamod:palmwood" }
-        ]
+        "axis=y":    { "model": "bananamod:palmwood" },
+        "axis=z":     { "model": "bananamod:palmwood", "x": 90 },
+        "axis=x":     { "model": "bananamod:palmwood", "x": 90, "y": 90 },
+        "axis=none":   { "model": "bananamod:palmwood" }
     }
 }

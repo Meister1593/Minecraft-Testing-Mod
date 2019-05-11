@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_column",
     "textures": {
-        "all": "bananamod:blocks/palmwood_block"
+        "end": "bananamod:blocks/palmwood_block_top",
+        "side": "bananamod:blocks/palmwood_block_side"
     }
 }
