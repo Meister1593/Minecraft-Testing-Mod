@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION,
         acceptedMinecraftVersions = Reference.ACCEPTED_MINECRAFT_VERSIONS)
 
-
+//@TODO Сделать генератор на бананах
 public class MainClass {
 
     @SidedProxy(clientSide = "com.example.bananamod.proxy.ClientProxy", serverSide = "com.example.bananamod.proxy.CommonProxy")
