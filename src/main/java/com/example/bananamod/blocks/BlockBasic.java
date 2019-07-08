@@ -7,11 +7,13 @@ import net.minecraft.block.material.Material;
 
 public class BlockBasic extends Block {
 
-    public BlockBasic(String name, Material blockMaterialIn, SoundType sound) {
+    public BlockBasic(String name, Material blockMaterialIn, SoundType sound, float hardness, String harvestTool, int harvestLevel) {
         super(blockMaterialIn);
         BlocksList.BASIC_BLOCKS.add(this);
         setUnlocalizedName(name);
         setRegistryName(name);
         setSoundType(sound);
+        setHardness(hardness);
+        setHarvestLevel(harvestTool, harvestLevel);
     }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "LLL",
-    " D ",
-    " D "
+    "LL",
+    " D",
+    " D"
   ],
   "key": {
     "L": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "bananamod:bananapickaxe",
+    "item": "bananamod:bananahoe",
     "count": 1
   }
 }

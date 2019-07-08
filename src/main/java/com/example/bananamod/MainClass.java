@@ -23,18 +23,18 @@ public class MainClass {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         proxy.preInit(event);
-        System.out.println(Reference.MODID + ":preInit");
+        System.out.println(Reference.MODID + ":PreInitialisation");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
         proxy.init(event);
-        System.out.println(Reference.MODID + ":init");
+        System.out.println(Reference.MODID + ":Initialisaiton");
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
         proxy.postInit(event);
-        System.out.println(Reference.MODID + ":postInit");
+        System.out.println(Reference.MODID + ":PostInitialisation");
     }
 }

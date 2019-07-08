@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "T T",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "bananamod:banana",
+      "data": 0
+    }
+  },
+
+  "result": {
+    "item": "bananamod:leggs_bananaarmor",
+    "count": 1
+  }
+}

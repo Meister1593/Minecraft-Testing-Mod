@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bananamod:bananablock"
+    }
+  ],
+  "result": {
+    "item": "bananamod:banana",
+    "count": 9
+  }
+}
