@@ -2,6 +2,7 @@ package com.example.bananamod.init;
 
 import com.example.bananamod.Reference;
 import com.example.bananamod.blocks.BlockBasic;
+import com.example.bananamod.blocks.LeavesBlock;
 import com.example.bananamod.blocks.WoodenBlock;
 import com.example.bananamod.collections.BlocksList;
 import net.minecraft.block.Block;
@@ -25,6 +26,9 @@ public class BlockRegister {
         for (BlockBasic basicBlock : BlocksList.BASIC_BLOCKS){
             setRegister(basicBlock);
         }
+        for (LeavesBlock basicBlock : BlocksList.LEAVES_BLOCKS){
+            setRegister(basicBlock);
+        }
 
     }
 
@@ -35,6 +39,9 @@ public class BlockRegister {
             setRender(woodenBlock);
         }
         for (BlockBasic basicBlock : BlocksList.BASIC_BLOCKS){
+            setRender(basicBlock);
+        }
+        for (LeavesBlock basicBlock : BlocksList.LEAVES_BLOCKS){
             setRender(basicBlock);
         }
 
@@ -52,4 +59,6 @@ public class BlockRegister {
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block),
                 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
     }
+
+
 }
