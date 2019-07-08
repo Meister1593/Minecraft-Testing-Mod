@@ -1,2 +1,7 @@
 item.banana.name=Banana
+item.bananapickaxe.name=Banana Pickaxe
+item.boots_bananaarmor.name=Banana Boots
+item.leggs_bananaarmor.name=Banana Leggins
+item.chestplate_bananaarmor.name=Banana Chestplate
+item.head_bananaarmor.name=Banana Helmet
 tile.palmwood.name=Palm Wood

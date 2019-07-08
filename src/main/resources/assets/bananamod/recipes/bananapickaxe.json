@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    " L ",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "bananamod:banana"
+    }
+  },
+  "result": {
+    "item": "bananamod:bananapickaxe",
+    "count": 1
+  }
+}

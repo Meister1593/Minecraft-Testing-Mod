@@ -3,7 +3,7 @@
   "modid": "MODID",
   "name": "MODNAME",
   "description": "DESCRIPTION",
-  "version": "VERSION",
+  "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
